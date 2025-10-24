@@ -157,26 +157,29 @@
             </div>
         </section>
 
-        <!-- Contact -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title reveal">Liên Hệ</h2>
-                <div class="contact-content reveal">
-                    <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:lehoangthanhphu3082k3@gmail.com">lehoangthanhphu3082k3@gmail.com</a></p>
-                        <p><i class="fas fa-phone"></i> <strong>Điện thoại:</strong> <a href="tel:0938477136">0938 477 136</a></p>
-                        <p><i class="fas fa-map-marker-alt"></i> <strong>Địa chỉ:</strong> TP. Hồ Chí Minh, Việt Nam</p>
-                    </div>
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title reveal">Liên Hệ</h2>
 
-                    <form id="contact-form" class="contact-form">
-                        <input type="text" name="name" placeholder="Họ và tên" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
-                        <button type="submit">Gửi tin nhắn</button>
-                    </form>
-                </div>
+        <!-- 2 cột: thông tin bên trái, QR bên phải -->
+        <div class="contact-flex reveal">
+            <!-- Cột trái: Thông tin liên hệ -->
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:lehoangthanhphu3082k3@gmail.com">lehoangthanhphu3082k3@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <strong>Điện thoại:</strong> <a href="tel:0938477136">0938 477 136</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Địa chỉ:</strong> TP. Hồ Chí Minh, Việt Nam</p>
             </div>
-        </section>
+
+            <!-- Cột phải: Mã QR Zalo -->
+            <div class="qr-code-container">
+                <h3>Quét QR để liên hệ qua Zalo</h3>
+                <img src="qr.jpg" alt="Mã QR Zalo" class="qr-code">
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #777;">Hoặc nhấn vào ảnh để tải về.</p>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
     <footer class="reveal">
